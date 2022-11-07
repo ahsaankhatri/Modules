@@ -1,0 +1,14 @@
+[
+{
+  "essential": true,
+      "memory": 512,
+      "name": "ECS-task",
+      "cpu": 2,
+      "image": "ami-089a545a9ed9893b6:latest",
+      "portMappings" : [
+        {
+          "containerPort" : 80
+        }
+      ]
+}
+]
