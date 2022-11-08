@@ -21,3 +21,15 @@ variable "cidr_block" {
 variable "instance_name" {
   type = string
 }
+
+variable "ecs_capicity" {
+  type = number
+}
+
+variable "instance_max_size" {
+  type = number
+}
+
+variable "instance_min_size" {
+  type = number
+}
